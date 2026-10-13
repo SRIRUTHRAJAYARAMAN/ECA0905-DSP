@@ -1,0 +1,20 @@
+=== EXPERIMENT 3: IMPULSE INVARIANCE vs BILINEAR TRANSFORMATION ===
+
+Analog Cutoff Frequency (Omega_c): 6283.19 rad/s
+Prewarped Analog Frequency (Omega_p): 7265.43 rad/s
+
+--- IMPULSE INVARIANCE COEFFICIENTS ---
+Digital Numerator (b_imp):
+    1.2566
+
+Digital Denominator (a_imp):
+    1.0000   -0.2846
+
+--- BILINEAR TRANSFORMATION COEFFICIENTS ---
+Digital Numerator (b_blt):
+    0.4208    0.4208
+
+Digital Denominator (a_blt):
+    1.0000   -0.1584
+
+>> 
