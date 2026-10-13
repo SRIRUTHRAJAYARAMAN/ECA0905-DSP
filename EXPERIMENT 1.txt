@@ -1,0 +1,21 @@
+=== EXPERIMENT 1: BUTTERWORTH IIR FILTERS ===
+
+--- LOW-PASS FILTER ---
+Calculated Filter Order (N_lp): 12
+3-dB Cutoff Frequency (Wn_lp): 1087.8354 Hz
+Numerator Coefficients (b_lp):
+    0.0000    0.0000    0.0002    0.0006    0.0013    0.0021    0.0024    0.0021    0.0013    0.0006    0.0002    0.0000    0.0000
+
+Denominator Coefficients (a_lp):
+    1.0000   -5.4622   14.6771  -25.1616   30.3497  -26.9537   17.9862   -9.0534    3.4018   -0.9283    0.1743   -0.0202    0.0011
+
+--- HIGH-PASS FILTER ---
+Calculated Filter Order (N_hp): 10
+3-dB Cutoff Frequency (Wn_hp): 2379.7556 Hz
+Numerator Coefficients (b_hp):
+    0.0006   -0.0055    0.0248   -0.0662    0.1159   -0.1390    0.1159   -0.0662    0.0248   -0.0055    0.0006
+
+Denominator Coefficients (a_hp):
+    1.0000    1.8915    2.8535    2.6014    1.8704    0.9534    0.3726    0.1030    0.0199    0.0023    0.0001
+
+>> 
