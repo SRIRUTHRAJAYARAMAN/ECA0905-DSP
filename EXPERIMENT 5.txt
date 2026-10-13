@@ -1,0 +1,38 @@
+Numerator coefficients b =
+    0.0048    0.0193    0.0289    0.0193    0.0048
+
+Denominator coefficients a =
+    1.0000   -2.3695    2.3140   -1.0547    0.1874
+
+Second Order Sections (Cascade) =
+    1.0000    2.1551    1.0000    1.0000   -1.0486    0.2962
+    1.0000    1.8657    1.0000    1.0000   -1.3209    0.6327
+
+Cascade Gain =
+    0.0048
+
+Residues (Parallel) =
+  -0.2698 + 0.1343i
+  -0.2698 - 0.1343i
+   0.2594 - 0.8024i
+   0.2594 + 0.8024i
+
+Poles (Parallel) =
+   0.6604 + 0.4433i
+   0.6604 - 0.4433i
+   0.5243 + 0.1459i
+   0.5243 - 0.1459i
+
+Direct term =
+    0.0256
+
+Comparison Table:
+    Structure     Maximum_Error    Deviation_percent
+    __________    _____________    _________________
+
+    "DF-I"                  0                  0    
+    "DF-II"                 0                  0    
+    "Cascade"      1.9221e-15          8.242e-13    
+    "Parallel"     1.9811e-15         8.4949e-13    
+
+>> 
