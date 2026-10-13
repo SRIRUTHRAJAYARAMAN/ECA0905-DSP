@@ -1,0 +1,82 @@
+
+====================================================
+       IIR FILTER COMPARATIVE ANALYSIS
+====================================================
+
+INPUT PARAMETERS
+Sampling Frequency       = 1000.00 Hz
+Passband Edge Frequency  = 100.00 Hz
+Stopband Edge Frequency  = 150.00 Hz
+Passband Ripple          = 1.00 dB
+Stopband Attenuation     = 40.00 dB
+
+CHEBYSHEV TYPE-I FORMULA
+Ripple factor epsilon    = 0.5088
+Calculated order         = 6.2071
+Theoretical minimum N    = 7
+
+====================================================
+              FILTER ORDER COMPARISON
+====================================================
+Butterworth Order        = 12
+Chebyshev Type-I Order   = 6
+Elliptic Order           = 4
+
+====================================================
+           BUTTERWORTH COEFFICIENTS
+====================================================
+Numerator b =
+   1.0e-03 *
+
+    0.0002    0.0027    0.0146    0.0488    0.1098    0.1757    0.2050    0.1757    0.1098    0.0488    0.0146    0.0027    0.0002
+
+Denominator a =
+    1.0000   -6.8844   22.4341  -45.5100   63.7725  -64.8501   48.9643  -27.6092   11.5218   -3.4662    0.7128   -0.0899    0.0053
+
+
+====================================================
+           CHEBYSHEV TYPE-I COEFFICIENTS
+====================================================
+Numerator b =
+   1.0e-03 *
+
+    0.0464    0.2782    0.6956    0.9274    0.6956    0.2782    0.0464
+
+Denominator a =
+    1.0000   -4.8694   10.3807  -12.3367    8.5969   -3.3268    0.5586
+
+
+====================================================
+             ELLIPTIC COEFFICIENTS
+====================================================
+Numerator b =
+    0.0197   -0.0171    0.0333   -0.0171    0.0197
+
+Denominator a =
+    1.0000   -3.0330    3.8118   -2.2911    0.5554
+
+
+====================================================
+             FILTER PERFORMANCE
+====================================================
+
+PASSBAND RIPPLE
+Butterworth      = 0.8033 dB
+Chebyshev Type-I = 1.0000 dB
+Elliptic         = 1.0000 dB
+
+STOPBAND ATTENUATION
+Butterworth      = 40.0198 dB
+Chebyshev Type-I = 41.3365 dB
+Elliptic         = 40.0000 dB
+
+CHEBYSHEV RIPPLE DEVIATION
+Specified Ripple = 1.00 dB
+Measured Ripple  = 1.0000 dB
+Percentage Deviation = 0.0000 %
+
+TRANSITION CHARACTERISTICS
+Passband Edge     = 100.00 Hz
+Stopband Edge     = 150.00 Hz
+Transition Band   = 50.00 Hz
+>> 
