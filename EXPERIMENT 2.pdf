@@ -1,0 +1,21 @@
+=== EXPERIMENT 2: CHEBYSHEV TYPE-I IIR FILTERS ===
+
+--- CHEBYSHEV LOW-PASS FILTER ---
+Calculated Filter Order (N_lp): 6
+Passband Edge Cutoff Frequency (Wn_lp): 1500.0000 Hz
+Numerator Coefficients (b_lp):
+    0.0006    0.0038    0.0095    0.0127    0.0095    0.0038    0.0006
+
+Denominator Coefficients (a_lp):
+    1.0000   -3.7650    6.8198   -7.3274    4.8717   -1.8927    0.3368
+
+--- CHEBYSHEV HIGH-PASS FILTER ---
+Calculated Filter Order (N_hp): 6
+Passband Edge Cutoff Frequency (Wn_hp): 2500.0000 Hz
+Numerator Coefficients (b_hp):
+    0.0117   -0.0704    0.1761   -0.2348    0.1761   -0.0704    0.0117
+
+Denominator Coefficients (a_hp):
+    1.0000    1.3568    2.1347    1.8511    1.2978    0.5937    0.1650
+
+>> 
