@@ -1,0 +1,29 @@
+
+--- QUANTIZATION RESULTS ---
+Maximum coefficient/output error = 4.405764e-03
+Coefficient SQNR                 = 32.23 dB
+Maximum product quantization error = 1.651951e-01
+Product SQNR                     = 1.57 dB
+Zero-input maximum amplitude     = 9.216590e-03
+Overflow samples                 = 194
+               Test               Maximum_Error_or_Amplitude    SQNR_dB
+    __________________________    __________________________    _______
+
+    "Coefficient Quantization"            0.0044058             32.233 
+    "Product Quantization"                   0.1652             1.5673 
+    "Zero-Input Test"                     0.0092166                NaN 
+    "Overflow Test"                          1.3599                NaN 
+
+Original b =
+    0.0048    0.0193    0.0289    0.0193    0.0048
+
+Quantized b =
+    0.0079    0.0157    0.0315    0.0157    0.0079
+
+Original a =
+    1.0000   -2.3695    2.3140   -1.0547    0.1874
+
+Quantized a =
+    1.0000   -2.3701    2.3150   -1.0551    0.1890
+
+>> 
