@@ -1,0 +1,11 @@
+=== EXPERIMENT 7: PARKS-MCCLELLAN vs FREQUENCY SAMPLING ===
+
+Filter Order (N): 40
+Passband Edge: 1500 Hz, Stopband Edge: 2000 Hz
+
+--- PARKS-MCCLELLAN COEFFICIENTS (b_pm, First 10) ---
+   -0.0015    0.0072    0.0053   -0.0010   -0.0081   -0.0072    0.0037    0.0142    0.0100   -0.0090
+
+--- FREQUENCY-SAMPLING COEFFICIENTS (b_fs, First 10) ---
+    0.0000    0.0001    0.0002   -0.0001   -0.0008   -0.0009    0.0008    0.0035    0.0029   -0.0039
+
