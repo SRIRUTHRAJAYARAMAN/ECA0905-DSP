@@ -1,0 +1,30 @@
+
+============================================
+       FIR FILTER REALIZATION RESULTS
+============================================
+
+FIR Coefficients:
+    0.0625    0.2500    0.3750    0.2500    0.0625
+
+Sampling Frequency = 1000 Hz
+Number of Samples  = 128
+Coefficient Symmetry = Symmetric
+Symmetry Error       = 0.000e+00
+Group Delay          = 2.00 samples
+
+Maximum Error        = 8.327e-16
+Percentage Deviation = 2.220e-13 %
+
+============================================
+OUTPUT PARAMETER TABLE
+============================================
+              Parameter                              Observation                                         Value                                  Unit_Note       
+    ______________________________    _________________________________________    __________________________________________________    _______________________
+
+    {'Direct realization output' }    {'Direct FIR filtering'                 }    {'[0.0625 0.2500 0.3750 0.2500 0.0625]'          }    {'Amplitude'          }
+    {'Cascade realization output'}    {'Cascade of first-order sections'      }    {'[0.0625 0.2500 0.3750 0.2500 0.0625]'          }    {'Amplitude'          }
+    {'Impulse response'          }    {'Equal to FIR coefficient sequence'    }    {'[0.0625 0.2500 0.3750 0.2500 0.0625]'          }    {'h[n]'               }
+    {'Phase response'            }    {'Linear phase'                         }    {'Group delay = 2.00 samples'                    }    {'Samples'            }
+    {'Comparison of realizations'}    {'Equivalent transfer-function behavior'}    {'Max error = 8.327e-16; Deviation = 2.220e-13 %'}    {'Numerical precision'}
+
+>> 
