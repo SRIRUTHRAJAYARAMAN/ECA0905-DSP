@@ -1,0 +1,27 @@
+
+========== QUANTIZATION RESULTS ==========
+Amplitude = 1.0 | Frequency = 50 Hz | Fs = 1000 Hz
+Samples = 1000 | Main word length = 8 bits
+8-bit Step Size = 0.0078125
+Rounding SQNR = 48.9339 dB
+Truncation SQNR = 45.2931 dB
+Output SQNR = 48.9339 dB
+Max Rounding Error = 0.003483
+Max Truncation Error = 0.005744
+    Bits     StepSize     SQNR_Round_dB    SQNR_Trunc_dB    MaxError_Round    MaxError_Trunc
+    ____    __________    _____________    _____________    ______________    ______________
+
+      4          0.125       23.667           20.871            0.059017          0.087785  
+      8      0.0078125       48.934           45.293            0.003483          0.005744  
+     12     0.00048828       78.811           65.891          0.00011536        0.00042324  
+     16     3.0518e-05       99.697           91.599           1.382e-05        2.6516e-05  
+
+            Parameter                                Observation                            Unit     
+    __________________________    __________________________________________________    _____________
+
+    {'Quantized signal'      }    {'8-bit rounding, Delta = 0.0078125'             }    {'Amplitude'}
+    {'Quantization error'    }    {'Max rounding error = 0.003483'                 }    {'Amplitude'}
+    {'SQNR'                  }    {'Rounding = 48.9339 dB; Truncation = 45.2931 dB'}    {'dB'       }
+    {'Word-length comparison'}    {'SQNR increases as word length increases'       }    {'Bits / dB'}
+
+>> 
